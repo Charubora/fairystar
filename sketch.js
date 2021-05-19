@@ -1,6 +1,6 @@
 var starImg,bgImg;
 var star, starBody;
-var fairy,fairyImg;
+var fairy,fairyImg,fairyvoice;
 
 const Engine = Matter.Engine;
 const World = Matter.World;
