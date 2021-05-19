@@ -12,14 +12,14 @@ function preload()
 	starImg = loadImage("star.png");
 	bgImg = loadImage("starNight.png");
 	fairyImg=loadAnimation("fairyImage1.png","fairyImage2.png")
-	fairyvoice=loadSound("Joymusic.mp3");
+	//fairyvoice=loadSound("Joymusic.mp3");
 }
 
 function setup() {
 	createCanvas(800, 750);
 
 	//write code to play fairyVoice sound
-    fairyvoice.play();
+    //fairyvoice.play();
 	fairy=createSprite(130,520)
 	fairy.scale=0.2;
 	fairy.addAnimation("flyingfairy",fairyImg)
